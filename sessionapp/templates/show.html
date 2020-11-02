@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>세션 결과 보기(5초 후에 새로고침하면 인자가 사라짐)</h2>
+<p>선택한 운영체제는 {{request.session.f_os}}, {{dict_f_os}}</p><br><!-- {{dict_f_os}}로 써도 됨 -->
+<p>메세지는 {{message}}</p><br>
+<a href="/setos/">운영체제 다시 선택하기</a><br>
+<a href="/">메인으로 이동</a>
+</body>
+</html>
